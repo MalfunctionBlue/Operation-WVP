@@ -18,9 +18,3 @@ CraftGuide: Extracting 'texpack_support/theme.xml' to 'C:\Kojima\Onad\OperationW
   Trying to load directory: texpack_support
     Found theme.xml
     Loaded texpack_support
-(re)loading recipe list...
-  Getting recipes...
-    Generating recipes from uristqwerty.CraftGuide.recipes.DefaultRecipeProvider
-    Generating recipes from uristqwerty.CraftGuide.recipes.BrewingRecipes
-    Generating recipes from uristqwerty.CraftGuide.recipes.GrassSeedDrops
-  Filtering recipes...
