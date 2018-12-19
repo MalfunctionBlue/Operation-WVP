@@ -1,0 +1,698 @@
+[00:41:43] [main/INFO]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[00:41:43] [main/INFO]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[00:41:43] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[00:41:43] [main/INFO]: Forge Mod Loader version 12.18.3.2477 for Minecraft 1.10.2 loading
+[00:41:43] [main/INFO]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_191, running on Windows 10:amd64:10.0, installed at C:\Program Files\Java\jre1.8.0_191
+[00:41:43] [main/WARN]: The coremod invtweaks.forge.asm.FMLPlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[00:41:43] [main/INFO]: Loading tweaker org.spongepowered.asm.launch.MixinTweaker from movingworld-1.10.2-0006-full.jar
+[00:41:43] [main/INFO]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[00:41:43] [main/INFO]: Loading tweak class name org.spongepowered.asm.launch.MixinTweaker
+[00:41:43] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.6.1 Source=file:/C:/Kojima/Onad/OperationWinterVeilPegsus/.minecraft/mods/movingworld-1.10.2-0006-full.jar Env=CLIENT
+[00:41:43] [main/INFO]: Compatibility level set to JAVA_8
+[00:41:43] [main/INFO]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[00:41:43] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[00:41:43] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[00:41:43] [main/INFO]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[00:41:45] [main/INFO]: Found valid fingerprint for Minecraft Forge. Certificate fingerprint e3c3d50c7c986df74c645c0ac54639741c90a557
+[00:41:45] [main/INFO]: Found valid fingerprint for Minecraft. Certificate fingerprint cd99959656f753dc28d863b46769f7f8fbaefcfc
+[00:41:45] [main/INFO]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[00:41:45] [main/INFO]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[00:41:45] [main/INFO]: Calling tweak class org.spongepowered.asm.launch.MixinTweaker
+[00:41:46] [main/INFO]: Initialised Mixin FML Remapper Adapter with net.minecraftforge.fml.common.asm.transformers.deobf.FMLDeobfuscatingRemapper@3f1ed068
+[00:41:46] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[00:41:46] [main/INFO]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[00:41:46] [main/INFO]: Loading tweak class name org.spongepowered.asm.mixin.MixinEnvironment$EnvironmentStateTweaker
+[00:41:46] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[00:41:46] [main/INFO]: Calling tweak class org.spongepowered.asm.mixin.MixinEnvironment$EnvironmentStateTweaker
+[00:41:46] [main/INFO]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+[00:41:47] [Client thread/INFO]: Setting user: Azerty_Yu
+[00:41:50] [Client thread/WARN]: Skipping bad option: lastServer:
+[00:41:50] [Client thread/INFO]: LWJGL Version: 2.9.4
+[00:41:51] [Client thread/INFO]: [net.minecraftforge.fml.client.SplashProgress:start:223]: ---- Minecraft Crash Report ----
+
+WARNING: coremods are present:
+  MovingWorldCoreMod (movingworld-1.10.2-0006-full.jar)
+  FMLPlugin (InventoryTweaks-1.62-dev-66.jar)
+Contact their authors BEFORE contacting forge
+
+// Sorry :(
+
+Time: 12/19/18 12:41 AM
+Description: Loading screen debug info
+
+This is just a prompt for computer specs to be printed. THIS IS NOT A ERROR
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.10.2
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_191, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 126376624 bytes (120 MB) / 352321536 bytes (336 MB) up to 4294967296 bytes (4096 MB)
+	JVM Flags: 11 total; -XX:+UnlockExperimentalVMOptions -XX:+UseG1GC -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=16M -XX:-UseAdaptiveSizePolicy -XX:-OmitStackTraceInFastThrow -Xmn128m -Xmx4096m -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: 
+	Loaded coremods (and transformers): 
+MovingWorldCoreMod (movingworld-1.10.2-0006-full.jar)
+  
+FMLPlugin (InventoryTweaks-1.62-dev-66.jar)
+  invtweaks.forge.asm.ContainerTransformer
+	GL info: ' Vendor: 'NVIDIA Corporation' Version: '4.6.0 NVIDIA 416.34' Renderer: 'GeForce GTX 950/PCIe/SSE2'
+[00:41:51] [Client thread/INFO]: MinecraftForge v12.18.3.2477 Initialized
+[00:41:51] [Client thread/INFO]: Replaced 231 ore recipes
+[00:41:51] [Client thread/INFO]: Found 0 mods from the command line. Injecting into mod discoverer
+[00:41:51] [Client thread/INFO]: Searching C:\Kojima\Onad\OperationWinterVeilPegsus\.minecraft\mods for mods
+[00:41:52] [Client thread/WARN]: ****************************************
+[00:41:52] [Client thread/WARN]: * The modid Baubles is not the same as it's lowercase version. Lowercasing will be enforced in 1.11
+[00:41:52] [Client thread/WARN]: *  at net.minecraftforge.fml.common.FMLModContainer.sanityCheckModId(FMLModContainer.java:143)
+[00:41:52] [Client thread/WARN]: *  at net.minecraftforge.fml.common.FMLModContainer.<init>(FMLModContainer.java:128)
+[00:41:52] [Client thread/WARN]: *  at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+[00:41:52] [Client thread/WARN]: *  at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+[00:41:52] [Client thread/WARN]: *  at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+[00:41:52] [Client thread/WARN]: *  at java.lang.reflect.Constructor.newInstance(Unknown Source)...
+[00:41:52] [Client thread/WARN]: ****************************************
+[00:41:52] [Client thread/WARN]: ****************************************
+[00:41:52] [Client thread/WARN]: * The modid BloodMagic is not the same as it's lowercase version. Lowercasing will be enforced in 1.11
+[00:41:52] [Client thread/WARN]: *  at net.minecraftforge.fml.common.FMLModContainer.sanityCheckModId(FMLModContainer.java:143)
+[00:41:52] [Client thread/WARN]: *  at net.minecraftforge.fml.common.FMLModContainer.<init>(FMLModContainer.java:128)
+[00:41:52] [Client thread/WARN]: *  at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+[00:41:52] [Client thread/WARN]: *  at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+[00:41:52] [Client thread/WARN]: *  at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+[00:41:52] [Client thread/WARN]: *  at java.lang.reflect.Constructor.newInstance(Unknown Source)...
+[00:41:52] [Client thread/WARN]: ****************************************
+[00:41:53] [Thread-6/INFO]: Using sync timing. 200 frames of Display.update took 123624688 nanos
+[00:41:53] [Client thread/WARN]: Mod tcinventoryscan is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 2.0.7
+[00:41:53] [Client thread/WARN]: ****************************************
+[00:41:53] [Client thread/WARN]: * The modid bspkrsCore is not the same as it's lowercase version. Lowercasing will be enforced in 1.11
+[00:41:53] [Client thread/WARN]: *  at net.minecraftforge.fml.common.FMLModContainer.sanityCheckModId(FMLModContainer.java:143)
+[00:41:53] [Client thread/WARN]: *  at net.minecraftforge.fml.common.FMLModContainer.<init>(FMLModContainer.java:128)
+[00:41:53] [Client thread/WARN]: *  at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+[00:41:53] [Client thread/WARN]: *  at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+[00:41:53] [Client thread/WARN]: *  at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+[00:41:53] [Client thread/WARN]: *  at java.lang.reflect.Constructor.newInstance(Unknown Source)...
+[00:41:53] [Client thread/WARN]: ****************************************
+[00:41:53] [Client thread/WARN]: ****************************************
+[00:41:53] [Client thread/WARN]: * The modid Treecapitator is not the same as it's lowercase version. Lowercasing will be enforced in 1.11
+[00:41:53] [Client thread/WARN]: *  at net.minecraftforge.fml.common.FMLModContainer.sanityCheckModId(FMLModContainer.java:143)
+[00:41:53] [Client thread/WARN]: *  at net.minecraftforge.fml.common.FMLModContainer.<init>(FMLModContainer.java:128)
+[00:41:53] [Client thread/WARN]: *  at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+[00:41:53] [Client thread/WARN]: *  at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+[00:41:53] [Client thread/WARN]: *  at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+[00:41:53] [Client thread/WARN]: *  at java.lang.reflect.Constructor.newInstance(Unknown Source)...
+[00:41:53] [Client thread/WARN]: ****************************************
+[00:41:53] [Client thread/INFO]: Forge Mod Loader has identified 20 mods to load
+[00:41:53] [Client thread/INFO]: FML has found a non-mod file InfusionBrewing-1.7.10-1.3a.jar in your mods directory. It will now be injected into your classpath. This could severe stability issues, it should be removed if possible.
+[00:41:54] [Client thread/INFO]: Attempting connection with missing mods [mcp, FML, Forge, io.github.elytra.movingworld.common.asm.coremod, bamboomod, Baubles, BloodMagic, craftguide, davincisvessels, extrautils2, guideapi, inventorytweaks, movingworld, thaumcraft, tcinventoryscan, torohealthmod, bspkrsCore, Treecapitator, witherskelefix, xaerominimap] at CLIENT
+[00:41:54] [Client thread/INFO]: Attempting connection with missing mods [mcp, FML, Forge, io.github.elytra.movingworld.common.asm.coremod, bamboomod, Baubles, BloodMagic, craftguide, davincisvessels, extrautils2, guideapi, inventorytweaks, movingworld, thaumcraft, tcinventoryscan, torohealthmod, bspkrsCore, Treecapitator, witherskelefix, xaerominimap] at SERVER
+[00:41:55] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:bamboomod, FMLFileResourcePack:Baubles, FMLFileResourcePack:Blood Magic: Alchemical Wizardry, FMLFileResourcePack:CraftGuide, FMLFileResourcePack:Davinci's Vessels, FMLFileResourcePack:Extra Utilities 2, FMLFileResourcePack:Guide-API, FMLFileResourcePack:Inventory Tweaks, FMLFileResourcePack:Moving World, FMLFileResourcePack:Thaumcraft, FMLFileResourcePack:Thaumcrafft Inventory Scanning, FMLFileResourcePack:ToroHealth Damage Indicators, FMLFileResourcePack:bspkrsCore, FMLFileResourcePack:Treecapitator, FMLFileResourcePack:Wither Skeleton Tweaks, FMLFileResourcePack:Xaero's Minimap
+[00:41:55] [Client thread/INFO]: Processing ObjectHolder annotations
+[00:41:55] [Client thread/INFO]: Found 423 ObjectHolder annotations
+[00:41:55] [Client thread/INFO]: Identifying ItemStackHolder annotations
+[00:41:55] [Client thread/INFO]: Found 0 ItemStackHolder annotations
+[00:41:55] [Client thread/INFO]: Applying holder lookups
+[00:41:55] [Client thread/INFO]: Holder lookups applied
+[00:41:55] [Client thread/INFO]: Applying holder lookups
+[00:41:55] [Client thread/INFO]: Holder lookups applied
+[00:41:55] [Client thread/INFO]: Applying holder lookups
+[00:41:55] [Client thread/INFO]: Holder lookups applied
+[00:41:55] [Client thread/INFO]: Configured a dormant chunk cache size of 0
+[00:41:55] [Forge Version Check/INFO]: [Forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[00:41:55] [Client thread/INFO]: ********** BambooMod Data Init Start **********
+[00:41:55] [Client thread/INFO]: ruby.bamboo.block.Andon to Loading
+[00:41:55] [Client thread/INFO]: BLOCK: andon to Registed
+[00:41:55] [Client thread/INFO]: ruby.bamboo.block.Bamboo to Loading
+[00:41:55] [Client thread/INFO]: BLOCK: bamboo to Registed
+[00:41:55] [Client thread/INFO]: ruby.bamboo.block.BambooPane to Loading
+[00:41:56] [Client thread/INFO]: BLOCK: bamboopane to Registed
+[00:41:56] [Client thread/INFO]: ruby.bamboo.block.BambooShoot to Loading
+[00:41:56] [Client thread/INFO]: BLOCK: bambooshoot to Registed
+[00:41:56] [Client thread/INFO]: ruby.bamboo.block.BroadLeave to Loading
+[00:41:56] [Client thread/INFO]: BLOCK: broad_leave to Registed
+[00:41:56] [Client thread/INFO]: ruby.bamboo.block.Campfire to Loading
+[00:41:56] [Client thread/INFO]: BLOCK: campfire to Registed
+[00:41:56] [Client thread/INFO]: ruby.bamboo.block.Huton to Loading
+[00:41:56] [Client thread/INFO]: BLOCK: huton to Registed
+[00:41:56] [Client thread/INFO]: ruby.bamboo.block.IndLight to Loading
+[00:41:56] [Forge Version Check/INFO]: [Forge] Found status: OUTDATED Target: 12.18.3.2511
+[00:41:56] [Client thread/INFO]: BLOCK: indlight_white to Registed
+[00:41:56] [Client thread/INFO]: BLOCK: indlight_orange to Registed
+[00:41:56] [Client thread/INFO]: BLOCK: indlight_magenta to Registed
+[00:41:56] [Client thread/INFO]: BLOCK: indlight_light_blue to Registed
+[00:41:56] [Client thread/INFO]: BLOCK: indlight_yellow to Registed
+[00:41:56] [Client thread/INFO]: BLOCK: indlight_lime to Registed
+[00:41:56] [Client thread/INFO]: BLOCK: indlight_pink to Registed
+[00:41:56] [Client thread/INFO]: BLOCK: indlight_gray to Registed
+[00:41:56] [Client thread/INFO]: BLOCK: indlight_silver to Registed
+[00:41:56] [Client thread/INFO]: BLOCK: indlight_cyan to Registed
+[00:41:56] [Client thread/INFO]: BLOCK: indlight_purple to Registed
+[00:41:56] [Client thread/INFO]: BLOCK: indlight_blue to Registed
+[00:41:56] [Client thread/INFO]: BLOCK: indlight_brown to Registed
+[00:41:56] [Client thread/INFO]: BLOCK: indlight_green to Registed
+[00:41:56] [Client thread/INFO]: BLOCK: indlight_red to Registed
+[00:41:56] [Client thread/INFO]: BLOCK: indlight_black to Registed
+[00:41:56] [Client thread/INFO]: ruby.bamboo.block.JPChest to Loading
+[00:41:56] [Client thread/INFO]: BLOCK: jpchest to Registed
+[00:41:56] [Client thread/INFO]: ruby.bamboo.block.Kitunebi to Loading
+[00:41:56] [Client thread/INFO]: BLOCK: kitunebi to Registed
+[00:41:56] [Client thread/INFO]: ruby.bamboo.block.MillStone to Loading
+[00:41:56] [Client thread/INFO]: BLOCK: millstone to Registed
+[00:41:56] [Client thread/INFO]: ruby.bamboo.block.RicePlant to Loading
+[00:41:56] [Client thread/INFO]: BLOCK: riceplant to Registed
+[00:41:56] [Client thread/INFO]: ruby.bamboo.block.SakuraLeave to Loading
+[00:41:56] [Client thread/INFO]: BLOCK: sakura_leave to Registed
+[00:41:56] [Client thread/INFO]: ruby.bamboo.block.SakuraLog to Loading
+[00:41:56] [Client thread/INFO]: BLOCK: sakura_log to Registed
+[00:41:56] [Client thread/INFO]: ruby.bamboo.block.SakuraPlank to Loading
+[00:41:56] [Client thread/INFO]: BLOCK: sakura_planks to Registed
+[00:41:56] [Client thread/INFO]: ruby.bamboo.block.SakuraSapling to Loading
+[00:41:56] [Client thread/INFO]: BLOCK: sakura_sapling to Registed
+[00:41:56] [Client thread/INFO]: ruby.bamboo.block.SpringBlock to Loading
+[00:41:56] [Client thread/INFO]: BLOCK: spring_block to Registed
+[00:41:56] [Client thread/INFO]: ruby.bamboo.block.SpringWater to Loading
+[00:41:56] [Client thread/INFO]: BLOCK: spring_water to Registed
+[00:41:56] [Client thread/INFO]: ruby.bamboo.block.Tatami to Loading
+[00:41:56] [Client thread/INFO]: BLOCK: tatami to Registed
+[00:41:56] [Client thread/INFO]: BLOCK: kawara to Registed
+[00:41:56] [Client thread/INFO]: BLOCK: kawara_double_slab to Registed
+[00:41:56] [Client thread/INFO]: BLOCK: kawara_slab to Registed
+[00:41:56] [Client thread/INFO]: BLOCK: kawara_stairs to Registed
+[00:41:56] [Client thread/INFO]: BLOCK: plaster to Registed
+[00:41:56] [Client thread/INFO]: BLOCK: plaster_double_slab to Registed
+[00:41:56] [Client thread/INFO]: BLOCK: plaster_slab to Registed
+[00:41:56] [Client thread/INFO]: BLOCK: plaster_stairs to Registed
+[00:41:56] [Client thread/INFO]: BLOCK: namako to Registed
+[00:41:56] [Client thread/INFO]: BLOCK: namako_double_slab to Registed
+[00:41:56] [Client thread/INFO]: BLOCK: namako_slab to Registed
+[00:41:56] [Client thread/INFO]: BLOCK: namako_stairs to Registed
+[00:41:56] [Client thread/INFO]: BLOCK: wara to Registed
+[00:41:56] [Client thread/INFO]: BLOCK: wara_double_slab to Registed
+[00:41:56] [Client thread/INFO]: BLOCK: wara_slab to Registed
+[00:41:56] [Client thread/INFO]: BLOCK: wara_stairs to Registed
+[00:41:56] [Client thread/INFO]: BLOCK: kaya to Registed
+[00:41:56] [Client thread/INFO]: BLOCK: kaya_double_slab to Registed
+[00:41:56] [Client thread/INFO]: BLOCK: kaya_slab to Registed
+[00:41:56] [Client thread/INFO]: BLOCK: kaya_stairs to Registed
+[00:41:56] [Client thread/INFO]: BLOCK: cbirch to Registed
+[00:41:56] [Client thread/INFO]: BLOCK: cbirch_double_slab to Registed
+[00:41:56] [Client thread/INFO]: BLOCK: cbirch_slab to Registed
+[00:41:56] [Client thread/INFO]: BLOCK: cbirch_stairs to Registed
+[00:41:56] [Client thread/INFO]: BLOCK: coak to Registed
+[00:41:56] [Client thread/INFO]: BLOCK: coak_double_slab to Registed
+[00:41:56] [Client thread/INFO]: BLOCK: coak_slab to Registed
+[00:41:56] [Client thread/INFO]: BLOCK: coak_stairs to Registed
+[00:41:56] [Client thread/INFO]: BLOCK: cpine to Registed
+[00:41:56] [Client thread/INFO]: BLOCK: cpine_double_slab to Registed
+[00:41:56] [Client thread/INFO]: BLOCK: cpine_slab to Registed
+[00:41:56] [Client thread/INFO]: BLOCK: cpine_stairs to Registed
+[00:41:56] [Client thread/INFO]: ruby.bamboo.item.BambooBow to Loading
+[00:41:56] [Client thread/INFO]: ITEM: bamboobow to Registed
+[00:41:56] [Client thread/INFO]: ruby.bamboo.item.BambooFood to Loading
+[00:41:56] [Client thread/INFO]: ITEM: bamboofood to Registed
+[00:41:56] [Client thread/INFO]: ruby.bamboo.item.FoldingFan to Loading
+[00:41:56] [Client thread/INFO]: ITEM: foldingfan to Registed
+[00:41:56] [Client thread/INFO]: ruby.bamboo.item.ItemSlideDoor to Loading
+[00:41:56] [Client thread/INFO]: ITEM: itemslidedoor to Registed
+[00:41:56] [Client thread/INFO]: ruby.bamboo.item.Rawrice to Loading
+[00:41:56] [Client thread/INFO]: ITEM: rawrice to Registed
+[00:41:56] [Client thread/INFO]: ruby.bamboo.item.RiceSeed to Loading
+[00:41:56] [Client thread/INFO]: ITEM: riceseed to Registed
+[00:41:56] [Client thread/INFO]: ruby.bamboo.item.Sack to Loading
+[00:41:56] [Client thread/INFO]: ITEM: sack to Registed
+[00:41:56] [Client thread/INFO]: ruby.bamboo.item.Straw to Loading
+[00:41:56] [Client thread/INFO]: ITEM: straw to Registed
+[00:41:56] [Client thread/INFO]: ruby.bamboo.item.Tudura to Loading
+[00:41:56] [Client thread/INFO]: ITEM: tudura to Registed
+[00:41:56] [Client thread/INFO]: ruby.bamboo.item.arrow.AntiArrow to Loading
+[00:41:56] [Client thread/INFO]: ITEM: antiarrow to Registed
+[00:41:56] [Client thread/INFO]: ruby.bamboo.item.arrow.BambooArrow to Loading
+[00:41:56] [Client thread/INFO]: ITEM: bambooarrow to Registed
+[00:41:56] [Client thread/INFO]: ruby.bamboo.item.arrow.ExplodeArrow to Loading
+[00:41:56] [Client thread/INFO]: ITEM: explodearrow to Registed
+[00:41:56] [Client thread/INFO]: ruby.bamboo.item.arrow.LightArrow to Loading
+[00:41:56] [Client thread/INFO]: ITEM: lightarrow to Registed
+[00:41:56] [Client thread/INFO]: ruby.bamboo.item.arrow.TorchArrow to Loading
+[00:41:56] [Client thread/INFO]: ITEM: torcharrow to Registed
+[00:41:56] [Client thread/INFO]: ********** BambooMod Data Init END **********
+[00:41:57] [Client thread/INFO]: OBJLoader: Domain bloodmagic has been added.
+[00:42:00] [Client thread/INFO]: OBJLoader: Domain thaumcraft has been added.
+[00:42:00] [Client thread/INFO]: Proceeding to load tree/mod configs from file.
+[00:42:00] [Client thread/INFO]: Applying holder lookups
+[00:42:00] [Client thread/INFO]: Holder lookups applied
+[00:42:00] [Client thread/INFO]: Injecting itemstacks
+[00:42:00] [Client thread/INFO]: Itemstack injection complete
+[00:42:01] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[00:42:01] [Thread-9/INFO]: Initializing LWJGL OpenAL
+[00:42:01] [Thread-9/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[00:42:01] [Thread-9/INFO]: OpenAL initialized.
+[00:42:02] [Client thread/INFO]: OBJLoader.Parser: command 's' (model: 'bloodmagic:models/block/BlockAltar.obj') is not currently supported, skipping. Line: 313 's off'
+[00:42:02] [Sound Library Loader/INFO]: Sound engine started
+[00:42:03] [Client thread/INFO]: OBJLoader.MaterialLibrary: key '' (model: 'thaumcraft:models/block/arcane_workbench_charger.mtl') is not currently supported, skipping
+[00:42:03] [Client thread/INFO]: OBJLoader.MaterialLibrary: key '' (model: 'thaumcraft:models/block/pillar.mtl') is not currently supported, skipping
+[00:42:03] [Client thread/INFO]: OBJLoader.MaterialLibrary: key '' (model: 'thaumcraft:models/block/thaumatorium.mtl') is not currently supported, skipping
+[00:42:03] [Client thread/INFO]: OBJLoader.MaterialLibrary: key '' (model: 'thaumcraft:models/block/golembuilder.mtl') is not currently supported, skipping
+[00:42:03] [Client thread/INFO]: OBJLoader.MaterialLibrary: key '' (model: 'thaumcraft:models/item/scanner.mtl') is not currently supported, skipping
+[00:42:04] [Client thread/INFO]: Max texture size: 16384
+[00:42:04] [Client thread/INFO]: Created: 16x16 textures-atlas
+[00:42:04] [Client thread/INFO]: Suppressed 1 model errors from Blood Magic.
+[00:42:04] [Client thread/ERROR]: Exception loading model for variant extrautils2:miner#active=true,facing=up
+net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception loading model extrautils2:miner#active=true,facing=up with loader VariantLoader.INSTANCE, skipping
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:153) ~[ModelLoaderRegistry.class:?]
+	at net.minecraftforge.client.model.ModelLoader.func_177569_a(ModelLoader.java:252) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.loadBlock(ModelBakery.java:145) ~[byo.class:?]
+	at net.minecraftforge.client.model.ModelLoader.func_188640_b(ModelLoader.java:240) ~[ModelLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoader.func_177570_a(ModelLoader.java:147) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelManager.func_110549_a(ModelManager.java:28) [byp.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.func_110542_a(SimpleReloadableResourceManager.java:122) [bxi.class:?]
+	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:499) [bcx.class:?]
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:351) [bcx.class:?]
+	at net.minecraft.client.main.Main.main(SourceFile:124) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_191]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_191]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_191]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_191]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+Caused by: net.minecraft.client.renderer.block.model.ModelBlockDefinition$MissingVariantException
+	at net.minecraft.client.renderer.block.model.ModelBlockDefinition.func_188004_c(ModelBlockDefinition.java:78) ~[bpe.class:?]
+	at net.minecraftforge.client.model.ModelLoader$VariantLoader.loadModel(ModelLoader.java:1195) ~[ModelLoader$VariantLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:149) ~[ModelLoaderRegistry.class:?]
+	... 15 more
+[00:42:04] [Client thread/ERROR]: Exception loading blockstate for the variant extrautils2:miner#active=true,facing=up: 
+java.lang.Exception: Could not load model definition for variant extrautils2:miner
+	at net.minecraftforge.client.model.ModelLoader.func_177586_a(ModelLoader.java:285) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.loadBlock(ModelBakery.java:121) ~[byo.class:?]
+	at net.minecraftforge.client.model.ModelLoader.func_188640_b(ModelLoader.java:240) ~[ModelLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoader.func_177570_a(ModelLoader.java:147) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelManager.func_110549_a(ModelManager.java:28) [byp.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.func_110542_a(SimpleReloadableResourceManager.java:122) [bxi.class:?]
+	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:499) [bcx.class:?]
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:351) [bcx.class:?]
+	at net.minecraft.client.main.Main.main(SourceFile:124) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_191]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_191]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_191]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_191]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+Caused by: java.lang.RuntimeException: Encountered an exception when loading model definition of model extrautils2:blockstates/miner.json
+	at net.minecraft.client.renderer.block.model.ModelBakery.func_188632_a(ModelBakery.java:205) ~[byo.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.func_177586_a(ModelBakery.java:185) ~[byo.class:?]
+	at net.minecraftforge.client.model.ModelLoader.func_177586_a(ModelLoader.java:281) ~[ModelLoader.class:?]
+	... 14 more
+Caused by: java.io.FileNotFoundException: extrautils2:blockstates/miner.json
+	at net.minecraft.client.resources.FallbackResourceManager.func_135056_b(FallbackResourceManager.java:103) ~[bww.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.func_135056_b(SimpleReloadableResourceManager.java:79) ~[bxi.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.func_188632_a(ModelBakery.java:198) ~[byo.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.func_177586_a(ModelBakery.java:185) ~[byo.class:?]
+	at net.minecraftforge.client.model.ModelLoader.func_177586_a(ModelLoader.java:281) ~[ModelLoader.class:?]
+	... 14 more
+[00:42:04] [Client thread/ERROR]: Exception loading model for variant extrautils2:miner#active=false,facing=north
+net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception loading model extrautils2:miner#active=false,facing=north with loader VariantLoader.INSTANCE, skipping
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:153) ~[ModelLoaderRegistry.class:?]
+	at net.minecraftforge.client.model.ModelLoader.func_177569_a(ModelLoader.java:252) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.loadBlock(ModelBakery.java:145) ~[byo.class:?]
+	at net.minecraftforge.client.model.ModelLoader.func_188640_b(ModelLoader.java:240) ~[ModelLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoader.func_177570_a(ModelLoader.java:147) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelManager.func_110549_a(ModelManager.java:28) [byp.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.func_110542_a(SimpleReloadableResourceManager.java:122) [bxi.class:?]
+	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:499) [bcx.class:?]
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:351) [bcx.class:?]
+	at net.minecraft.client.main.Main.main(SourceFile:124) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_191]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_191]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_191]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_191]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+Caused by: net.minecraft.client.renderer.block.model.ModelBlockDefinition$MissingVariantException
+	at net.minecraft.client.renderer.block.model.ModelBlockDefinition.func_188004_c(ModelBlockDefinition.java:78) ~[bpe.class:?]
+	at net.minecraftforge.client.model.ModelLoader$VariantLoader.loadModel(ModelLoader.java:1195) ~[ModelLoader$VariantLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:149) ~[ModelLoaderRegistry.class:?]
+	... 15 more
+[00:42:04] [Client thread/ERROR]: Exception loading model for variant extrautils2:enderlilly#growth=2,ready_to_grow=false
+net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception loading model extrautils2:enderlilly#growth=2,ready_to_grow=false with loader VariantLoader.INSTANCE, skipping
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:153) ~[ModelLoaderRegistry.class:?]
+	at net.minecraftforge.client.model.ModelLoader.func_177569_a(ModelLoader.java:252) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.loadBlock(ModelBakery.java:145) ~[byo.class:?]
+	at net.minecraftforge.client.model.ModelLoader.func_188640_b(ModelLoader.java:240) ~[ModelLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoader.func_177570_a(ModelLoader.java:147) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelManager.func_110549_a(ModelManager.java:28) [byp.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.func_110542_a(SimpleReloadableResourceManager.java:122) [bxi.class:?]
+	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:499) [bcx.class:?]
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:351) [bcx.class:?]
+	at net.minecraft.client.main.Main.main(SourceFile:124) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_191]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_191]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_191]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_191]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+Caused by: net.minecraft.client.renderer.block.model.ModelBlockDefinition$MissingVariantException
+	at net.minecraft.client.renderer.block.model.ModelBlockDefinition.func_188004_c(ModelBlockDefinition.java:78) ~[bpe.class:?]
+	at net.minecraftforge.client.model.ModelLoader$VariantLoader.loadModel(ModelLoader.java:1195) ~[ModelLoader$VariantLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:149) ~[ModelLoaderRegistry.class:?]
+	... 15 more
+[00:42:04] [Client thread/ERROR]: Exception loading blockstate for the variant extrautils2:enderlilly#growth=2,ready_to_grow=false: 
+java.lang.Exception: Could not load model definition for variant extrautils2:enderlilly
+	at net.minecraftforge.client.model.ModelLoader.func_177586_a(ModelLoader.java:285) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.loadBlock(ModelBakery.java:121) ~[byo.class:?]
+	at net.minecraftforge.client.model.ModelLoader.func_188640_b(ModelLoader.java:240) ~[ModelLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoader.func_177570_a(ModelLoader.java:147) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelManager.func_110549_a(ModelManager.java:28) [byp.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.func_110542_a(SimpleReloadableResourceManager.java:122) [bxi.class:?]
+	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:499) [bcx.class:?]
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:351) [bcx.class:?]
+	at net.minecraft.client.main.Main.main(SourceFile:124) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_191]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_191]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_191]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_191]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+Caused by: java.lang.RuntimeException: Encountered an exception when loading model definition of model extrautils2:blockstates/enderlilly.json
+	at net.minecraft.client.renderer.block.model.ModelBakery.func_188632_a(ModelBakery.java:205) ~[byo.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.func_177586_a(ModelBakery.java:185) ~[byo.class:?]
+	at net.minecraftforge.client.model.ModelLoader.func_177586_a(ModelLoader.java:281) ~[ModelLoader.class:?]
+	... 14 more
+Caused by: java.io.FileNotFoundException: extrautils2:blockstates/enderlilly.json
+	at net.minecraft.client.resources.FallbackResourceManager.func_135056_b(FallbackResourceManager.java:103) ~[bww.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.func_135056_b(SimpleReloadableResourceManager.java:79) ~[bxi.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.func_188632_a(ModelBakery.java:198) ~[byo.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.func_177586_a(ModelBakery.java:185) ~[byo.class:?]
+	at net.minecraftforge.client.model.ModelLoader.func_177586_a(ModelLoader.java:281) ~[ModelLoader.class:?]
+	... 14 more
+[00:42:04] [Client thread/ERROR]: Exception loading model for variant extrautils2:chunkloader#active=true,facing=north
+net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception loading model extrautils2:chunkloader#active=true,facing=north with loader VariantLoader.INSTANCE, skipping
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:153) ~[ModelLoaderRegistry.class:?]
+	at net.minecraftforge.client.model.ModelLoader.func_177569_a(ModelLoader.java:252) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.loadBlock(ModelBakery.java:145) ~[byo.class:?]
+	at net.minecraftforge.client.model.ModelLoader.func_188640_b(ModelLoader.java:240) ~[ModelLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoader.func_177570_a(ModelLoader.java:147) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelManager.func_110549_a(ModelManager.java:28) [byp.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.func_110542_a(SimpleReloadableResourceManager.java:122) [bxi.class:?]
+	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:499) [bcx.class:?]
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:351) [bcx.class:?]
+	at net.minecraft.client.main.Main.main(SourceFile:124) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_191]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_191]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_191]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_191]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+Caused by: net.minecraft.client.renderer.block.model.ModelBlockDefinition$MissingVariantException
+	at net.minecraft.client.renderer.block.model.ModelBlockDefinition.func_188004_c(ModelBlockDefinition.java:78) ~[bpe.class:?]
+	at net.minecraftforge.client.model.ModelLoader$VariantLoader.loadModel(ModelLoader.java:1195) ~[ModelLoader$VariantLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:149) ~[ModelLoaderRegistry.class:?]
+	... 15 more
+[00:42:04] [Client thread/ERROR]: Exception loading blockstate for the variant extrautils2:chunkloader#active=true,facing=north: 
+java.lang.Exception: Could not load model definition for variant extrautils2:chunkloader
+	at net.minecraftforge.client.model.ModelLoader.func_177586_a(ModelLoader.java:285) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.loadBlock(ModelBakery.java:121) ~[byo.class:?]
+	at net.minecraftforge.client.model.ModelLoader.func_188640_b(ModelLoader.java:240) ~[ModelLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoader.func_177570_a(ModelLoader.java:147) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelManager.func_110549_a(ModelManager.java:28) [byp.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.func_110542_a(SimpleReloadableResourceManager.java:122) [bxi.class:?]
+	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:499) [bcx.class:?]
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:351) [bcx.class:?]
+	at net.minecraft.client.main.Main.main(SourceFile:124) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_191]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_191]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_191]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_191]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+Caused by: java.lang.RuntimeException: Encountered an exception when loading model definition of model extrautils2:blockstates/chunkloader.json
+	at net.minecraft.client.renderer.block.model.ModelBakery.func_188632_a(ModelBakery.java:205) ~[byo.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.func_177586_a(ModelBakery.java:185) ~[byo.class:?]
+	at net.minecraftforge.client.model.ModelLoader.func_177586_a(ModelLoader.java:281) ~[ModelLoader.class:?]
+	... 14 more
+Caused by: java.io.FileNotFoundException: extrautils2:blockstates/chunkloader.json
+	at net.minecraft.client.resources.FallbackResourceManager.func_135056_b(FallbackResourceManager.java:103) ~[bww.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.func_135056_b(SimpleReloadableResourceManager.java:79) ~[bxi.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.func_188632_a(ModelBakery.java:198) ~[byo.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.func_177586_a(ModelBakery.java:185) ~[byo.class:?]
+	at net.minecraftforge.client.model.ModelLoader.func_177586_a(ModelLoader.java:281) ~[ModelLoader.class:?]
+	... 14 more
+[00:42:04] [Client thread/ERROR]: Exception loading model for variant thaumcraft:nitor#type=lime
+net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception loading model thaumcraft:nitor#type=lime with loader VariantLoader.INSTANCE, skipping
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:153) ~[ModelLoaderRegistry.class:?]
+	at net.minecraftforge.client.model.ModelLoader.func_177569_a(ModelLoader.java:252) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.loadBlock(ModelBakery.java:145) ~[byo.class:?]
+	at net.minecraftforge.client.model.ModelLoader.func_188640_b(ModelLoader.java:240) ~[ModelLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoader.func_177570_a(ModelLoader.java:147) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelManager.func_110549_a(ModelManager.java:28) [byp.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.func_110542_a(SimpleReloadableResourceManager.java:122) [bxi.class:?]
+	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:499) [bcx.class:?]
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:351) [bcx.class:?]
+	at net.minecraft.client.main.Main.main(SourceFile:124) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_191]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_191]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_191]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_191]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+Caused by: net.minecraft.client.renderer.block.model.ModelBlockDefinition$MissingVariantException
+	at net.minecraft.client.renderer.block.model.ModelBlockDefinition.func_188004_c(ModelBlockDefinition.java:78) ~[bpe.class:?]
+	at net.minecraftforge.client.model.ModelLoader$VariantLoader.loadModel(ModelLoader.java:1195) ~[ModelLoader$VariantLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:149) ~[ModelLoaderRegistry.class:?]
+	... 15 more
+[00:42:04] [Client thread/ERROR]: Exception loading blockstate for the variant thaumcraft:nitor#type=lime: 
+java.lang.Exception: Could not load model definition for variant thaumcraft:nitor
+	at net.minecraftforge.client.model.ModelLoader.func_177586_a(ModelLoader.java:285) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.loadBlock(ModelBakery.java:121) ~[byo.class:?]
+	at net.minecraftforge.client.model.ModelLoader.func_188640_b(ModelLoader.java:240) ~[ModelLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoader.func_177570_a(ModelLoader.java:147) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelManager.func_110549_a(ModelManager.java:28) [byp.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.func_110542_a(SimpleReloadableResourceManager.java:122) [bxi.class:?]
+	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:499) [bcx.class:?]
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:351) [bcx.class:?]
+	at net.minecraft.client.main.Main.main(SourceFile:124) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_191]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_191]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_191]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_191]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+Caused by: java.lang.RuntimeException: Encountered an exception when loading model definition of 'thaumcraft:nitor' from: 'thaumcraft:blockstates/nitor.json' in resourcepack: 'FMLFileResourcePack:Thaumcraft'
+	at net.minecraft.client.renderer.block.model.ModelBakery.func_188636_a(ModelBakery.java:223) ~[byo.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.func_188632_a(ModelBakery.java:200) ~[byo.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.func_177586_a(ModelBakery.java:185) ~[byo.class:?]
+	at net.minecraftforge.client.model.ModelLoader.func_177586_a(ModelLoader.java:281) ~[ModelLoader.class:?]
+	... 14 more
+Caused by: java.util.NoSuchElementException
+	at com.google.gson.internal.LinkedTreeMap$LinkedTreeMapIterator.nextNode(LinkedTreeMap.java:538) ~[LinkedTreeMap$LinkedTreeMapIterator.class:?]
+	at com.google.gson.internal.LinkedTreeMap$EntrySet$1.next(LinkedTreeMap.java:565) ~[LinkedTreeMap$EntrySet$1.class:?]
+	at com.google.gson.internal.LinkedTreeMap$EntrySet$1.next(LinkedTreeMap.java:563) ~[LinkedTreeMap$EntrySet$1.class:?]
+	at net.minecraftforge.client.model.ForgeBlockStateV1$Deserializer.deserialize(ForgeBlockStateV1.java:101) ~[ForgeBlockStateV1$Deserializer.class:?]
+	at net.minecraftforge.client.model.ForgeBlockStateV1$Deserializer.deserialize(ForgeBlockStateV1.java:66) ~[ForgeBlockStateV1$Deserializer.class:?]
+	at com.google.gson.TreeTypeAdapter.read(TreeTypeAdapter.java:58) ~[TreeTypeAdapter.class:?]
+	at com.google.gson.Gson.fromJson(Gson.java:803) ~[Gson.class:?]
+	at com.google.gson.Gson.fromJson(Gson.java:741) ~[Gson.class:?]
+	at net.minecraftforge.client.model.BlockStateLoader.load(BlockStateLoader.java:81) ~[BlockStateLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBlockDefinition.func_178331_a(ModelBlockDefinition.java:37) ~[bpe.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.func_188636_a(ModelBakery.java:219) ~[byo.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.func_188632_a(ModelBakery.java:200) ~[byo.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.func_177586_a(ModelBakery.java:185) ~[byo.class:?]
+	at net.minecraftforge.client.model.ModelLoader.func_177586_a(ModelLoader.java:281) ~[ModelLoader.class:?]
+	... 14 more
+[00:42:04] [Client thread/ERROR]: Exception loading model for variant thaumcraft:nitor#type=red
+net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception loading model thaumcraft:nitor#type=red with loader VariantLoader.INSTANCE, skipping
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:153) ~[ModelLoaderRegistry.class:?]
+	at net.minecraftforge.client.model.ModelLoader.func_177569_a(ModelLoader.java:252) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.loadBlock(ModelBakery.java:145) ~[byo.class:?]
+	at net.minecraftforge.client.model.ModelLoader.func_188640_b(ModelLoader.java:240) ~[ModelLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoader.func_177570_a(ModelLoader.java:147) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelManager.func_110549_a(ModelManager.java:28) [byp.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.func_110542_a(SimpleReloadableResourceManager.java:122) [bxi.class:?]
+	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:499) [bcx.class:?]
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:351) [bcx.class:?]
+	at net.minecraft.client.main.Main.main(SourceFile:124) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_191]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_191]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_191]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_191]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+Caused by: net.minecraft.client.renderer.block.model.ModelBlockDefinition$MissingVariantException
+	at net.minecraft.client.renderer.block.model.ModelBlockDefinition.func_188004_c(ModelBlockDefinition.java:78) ~[bpe.class:?]
+	at net.minecraftforge.client.model.ModelLoader$VariantLoader.loadModel(ModelLoader.java:1195) ~[ModelLoader$VariantLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:149) ~[ModelLoaderRegistry.class:?]
+	... 15 more
+[00:42:04] [Client thread/ERROR]: Exception loading model for variant thaumcraft:nitor#type=magenta
+net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception loading model thaumcraft:nitor#type=magenta with loader VariantLoader.INSTANCE, skipping
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:153) ~[ModelLoaderRegistry.class:?]
+	at net.minecraftforge.client.model.ModelLoader.func_177569_a(ModelLoader.java:252) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.loadBlock(ModelBakery.java:145) ~[byo.class:?]
+	at net.minecraftforge.client.model.ModelLoader.func_188640_b(ModelLoader.java:240) ~[ModelLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoader.func_177570_a(ModelLoader.java:147) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelManager.func_110549_a(ModelManager.java:28) [byp.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.func_110542_a(SimpleReloadableResourceManager.java:122) [bxi.class:?]
+	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:499) [bcx.class:?]
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:351) [bcx.class:?]
+	at net.minecraft.client.main.Main.main(SourceFile:124) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_191]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_191]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_191]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_191]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+Caused by: net.minecraft.client.renderer.block.model.ModelBlockDefinition$MissingVariantException
+	at net.minecraft.client.renderer.block.model.ModelBlockDefinition.func_188004_c(ModelBlockDefinition.java:78) ~[bpe.class:?]
+	at net.minecraftforge.client.model.ModelLoader$VariantLoader.loadModel(ModelLoader.java:1195) ~[ModelLoader$VariantLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:149) ~[ModelLoaderRegistry.class:?]
+	... 15 more
+[00:42:04] [Client thread/ERROR]: Exception loading model for variant thaumcraft:nitor#type=blue
+net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception loading model thaumcraft:nitor#type=blue with loader VariantLoader.INSTANCE, skipping
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:153) ~[ModelLoaderRegistry.class:?]
+	at net.minecraftforge.client.model.ModelLoader.func_177569_a(ModelLoader.java:252) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.loadBlock(ModelBakery.java:145) ~[byo.class:?]
+	at net.minecraftforge.client.model.ModelLoader.func_188640_b(ModelLoader.java:240) ~[ModelLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoader.func_177570_a(ModelLoader.java:147) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelManager.func_110549_a(ModelManager.java:28) [byp.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.func_110542_a(SimpleReloadableResourceManager.java:122) [bxi.class:?]
+	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:499) [bcx.class:?]
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:351) [bcx.class:?]
+	at net.minecraft.client.main.Main.main(SourceFile:124) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_191]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_191]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_191]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_191]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+Caused by: net.minecraft.client.renderer.block.model.ModelBlockDefinition$MissingVariantException
+	at net.minecraft.client.renderer.block.model.ModelBlockDefinition.func_188004_c(ModelBlockDefinition.java:78) ~[bpe.class:?]
+	at net.minecraftforge.client.model.ModelLoader$VariantLoader.loadModel(ModelLoader.java:1195) ~[ModelLoader$VariantLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:149) ~[ModelLoaderRegistry.class:?]
+	... 15 more
+[00:42:04] [Client thread/ERROR]: Suppressed additional 11 model loading errors for domain thaumcraft
+[00:42:04] [Client thread/ERROR]: Suppressed additional 97 model loading errors for domain extrautils2
+[00:42:04] [Client thread/INFO]: Elytra layer added
+[00:42:04] [Client thread/WARN]: No block found for ArchimedesShipsPlus:floater at block_densities[0]
+[00:42:04] [Client thread/WARN]: No block found for ArchimedesShipsPlus:balloon at block_densities[1]
+[00:42:04] [Client thread/INFO]: Setting up network...
+[00:42:04] [Client thread/INFO]: Setup network! io.github.elytra.movingworld.repackage.com.unascribed.lambdanetwork.LambdaNetwork@741260e4
+[00:42:04] [Client thread/INFO]: Found powered block with name: minecraft:golden_rail
+[00:42:04] [Client thread/INFO]: Found powered block with name: minecraft:detector_rail
+[00:42:04] [Client thread/INFO]: Found powered block with name: minecraft:wooden_door
+[00:42:04] [Client thread/INFO]: Found powered block with name: minecraft:lever
+[00:42:04] [Client thread/INFO]: Found powered block with name: minecraft:stone_pressure_plate
+[00:42:04] [Client thread/INFO]: Found powered block with name: minecraft:iron_door
+[00:42:04] [Client thread/INFO]: Found powered block with name: minecraft:wooden_pressure_plate
+[00:42:04] [Client thread/INFO]: Found powered block with name: minecraft:stone_button
+[00:42:04] [Client thread/INFO]: Found powered block with name: minecraft:fence_gate
+[00:42:04] [Client thread/INFO]: Found powered block with name: minecraft:tripwire_hook
+[00:42:04] [Client thread/INFO]: Found powered block with name: minecraft:tripwire
+[00:42:04] [Client thread/INFO]: Found powered block with name: minecraft:wooden_button
+[00:42:04] [Client thread/INFO]: Found powered block with name: minecraft:unpowered_comparator
+[00:42:04] [Client thread/INFO]: Found powered block with name: minecraft:powered_comparator
+[00:42:04] [Client thread/INFO]: Found powered block with name: minecraft:activator_rail
+[00:42:04] [Client thread/INFO]: Found powered block with name: minecraft:spruce_fence_gate
+[00:42:04] [Client thread/INFO]: Found powered block with name: minecraft:birch_fence_gate
+[00:42:04] [Client thread/INFO]: Found powered block with name: minecraft:jungle_fence_gate
+[00:42:04] [Client thread/INFO]: Found powered block with name: minecraft:dark_oak_fence_gate
+[00:42:04] [Client thread/INFO]: Found powered block with name: minecraft:acacia_fence_gate
+[00:42:04] [Client thread/INFO]: Found powered block with name: minecraft:spruce_door
+[00:42:04] [Client thread/INFO]: Found powered block with name: minecraft:birch_door
+[00:42:04] [Client thread/INFO]: Found powered block with name: minecraft:jungle_door
+[00:42:04] [Client thread/INFO]: Found powered block with name: minecraft:acacia_door
+[00:42:04] [Client thread/INFO]: Found powered block with name: minecraft:dark_oak_door
+[00:42:04] [Client thread/INFO]: Found powered block with name: davincisvessels:crate_wood
+[00:42:04] [Client thread/INFO]: Found powered block with name: thaumcraft:activator_rail
+[00:42:04] [Client thread/INFO]: Setting up network...
+[00:42:04] [Client thread/INFO]: Setup network! io.github.elytra.movingworld.repackage.com.unascribed.lambdanetwork.LambdaNetwork@42c829dd
+[00:42:05] [Client thread/INFO]: InvTweaks: 配置文件已载入
+[00:42:05] [Client thread/INFO]: Mod initialized
+[00:42:05] [Client thread/INFO]: Injecting itemstacks
+[00:42:05] [Client thread/INFO]: Itemstack injection complete
+[00:42:05] [Client thread/INFO]: Total number of compression recipes: 38
+[00:42:05] [Client thread/INFO]: Added compression recipes in 21.69 ms
+[00:42:05] [Client thread/INFO]: Adding entities to MFR safari net blacklist.
+[00:42:06] [Client thread/INFO]: Loaded 22 research entries from thaumcraft:research/alchemy
+[00:42:06] [Client thread/INFO]: Loaded 1 research entries from thaumcraft:research/eldritch
+[00:42:06] [Client thread/INFO]: Loaded 16 research entries from thaumcraft:research/basics
+[00:42:06] [Client thread/INFO]: Loaded 22 research entries from thaumcraft:research/auromancy
+[00:42:06] [Client thread/INFO]: Loaded 12 research entries from thaumcraft:research/scans
+[00:42:06] [Client thread/INFO]: Loaded 19 research entries from thaumcraft:research/artifice
+[00:42:06] [Client thread/INFO]: Loaded 15 research entries from thaumcraft:research/infusion
+[00:42:06] [Client thread/INFO]: Loaded 28 research entries from thaumcraft:research/golemancy
+[00:42:06] [Client thread/INFO]: Prioritizing User and IMC mod configs...
+[00:42:06] [Client thread/INFO]: Registering items and trees...
+[00:42:06] [Client thread/INFO]: Skipping Ore Dictionary processing.
+[00:42:06] [Client thread/INFO]: Forge Mod Loader has successfully loaded 20 mods
+[00:42:06] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:bamboomod, FMLFileResourcePack:Baubles, FMLFileResourcePack:Blood Magic: Alchemical Wizardry, FMLFileResourcePack:CraftGuide, FMLFileResourcePack:Davinci's Vessels, FMLFileResourcePack:Extra Utilities 2, FMLFileResourcePack:Guide-API, FMLFileResourcePack:Inventory Tweaks, FMLFileResourcePack:Moving World, FMLFileResourcePack:Thaumcraft, FMLFileResourcePack:Thaumcrafft Inventory Scanning, FMLFileResourcePack:ToroHealth Damage Indicators, FMLFileResourcePack:bspkrsCore, FMLFileResourcePack:Treecapitator, FMLFileResourcePack:Wither Skeleton Tweaks, FMLFileResourcePack:Xaero's Minimap
+[00:42:08] [Client thread/INFO]: SoundSystem shutting down...
+[00:42:08] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[00:42:08] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[00:42:08] [Thread-12/INFO]: Initializing LWJGL OpenAL
+[00:42:08] [Thread-12/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[00:42:08] [Thread-12/INFO]: OpenAL initialized.
+[00:42:08] [Sound Library Loader/INFO]: Sound engine started
+[00:42:10] [Client thread/INFO]: Max texture size: 16384
+[00:42:11] [Client thread/INFO]: Created: 1024x1024 textures-atlas
+[00:42:13] [Client thread/INFO]: Suppressed 1 model errors from Blood Magic.
+[00:42:13] [Client thread/WARN]: Skipping bad option: lastServer:
+[00:42:14] [Client thread/ERROR]: +=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+[00:42:14] [Client thread/ERROR]: The following texture errors were found.
+[00:42:14] [Client thread/ERROR]: ==================================================
+[00:42:14] [Client thread/ERROR]:   DOMAIN minecraft
+[00:42:14] [Client thread/ERROR]: --------------------------------------------------
+[00:42:14] [Client thread/ERROR]:   domain minecraft is missing 2 textures
+[00:42:14] [Client thread/ERROR]:     domain minecraft has 3 locations:
+[00:42:14] [Client thread/ERROR]:       unknown resourcepack type net.minecraft.client.resources.DefaultResourcePack : Default
+[00:42:14] [Client thread/ERROR]:       mod BloodMagic resources at C:\Kojima\Onad\OperationWinterVeilPegsus\.minecraft\mods\BloodMagic-1.10.2-2.1.11-80.jar
+[00:42:14] [Client thread/ERROR]:       mod extrautils2 resources at C:\Kojima\Onad\OperationWinterVeilPegsus\.minecraft\mods\extrautils2-1.10.2-1.9.7.jar
+[00:42:14] [Client thread/ERROR]: -------------------------
+[00:42:14] [Client thread/ERROR]:     The missing resources for domain minecraft are:
+[00:42:14] [Client thread/ERROR]:       textures/models/pillar_base_d.png
+[00:42:14] [Client thread/ERROR]:       textures/models/pillar_mid_d.png
+[00:42:14] [Client thread/ERROR]: -------------------------
+[00:42:14] [Client thread/ERROR]:     No other errors exist for domain minecraft
+[00:42:14] [Client thread/ERROR]: ==================================================
+[00:42:14] [Client thread/ERROR]: ==================================================
+[00:42:14] [Client thread/ERROR]:   DOMAIN thaumcraft
+[00:42:14] [Client thread/ERROR]: --------------------------------------------------
+[00:42:14] [Client thread/ERROR]:   domain thaumcraft is missing 1 texture
+[00:42:14] [Client thread/ERROR]:     domain thaumcraft has 1 location:
+[00:42:14] [Client thread/ERROR]:       mod thaumcraft resources at C:\Kojima\Onad\OperationWinterVeilPegsus\.minecraft\mods\Thaumcraft-1.10.2-6.0.BETA8.jar
+[00:42:14] [Client thread/ERROR]: -------------------------
+[00:42:14] [Client thread/ERROR]:     The missing resources for domain thaumcraft are:
+[00:42:14] [Client thread/ERROR]:       textures//blocks/centrifuge.png
+[00:42:14] [Client thread/ERROR]: -------------------------
+[00:42:14] [Client thread/ERROR]:     No other errors exist for domain thaumcraft
+[00:42:14] [Client thread/ERROR]: ==================================================
+[00:42:14] [Client thread/ERROR]: ==================================================
+[00:42:14] [Client thread/ERROR]:   DOMAIN extrautils2
+[00:42:14] [Client thread/ERROR]: --------------------------------------------------
+[00:42:14] [Client thread/ERROR]:   domain extrautils2 is missing 1 texture
+[00:42:14] [Client thread/ERROR]:     domain extrautils2 has 1 location:
+[00:42:14] [Client thread/ERROR]:       mod extrautils2 resources at C:\Kojima\Onad\OperationWinterVeilPegsus\.minecraft\mods\extrautils2-1.10.2-1.9.7.jar
+[00:42:14] [Client thread/ERROR]: -------------------------
+[00:42:14] [Client thread/ERROR]:     The missing resources for domain extrautils2 are:
+[00:42:14] [Client thread/ERROR]:       textures/potions/purging.png
+[00:42:14] [Client thread/ERROR]: -------------------------
+[00:42:14] [Client thread/ERROR]:     No other errors exist for domain extrautils2
+[00:42:14] [Client thread/ERROR]: ==================================================
+[00:42:14] [Client thread/ERROR]: +=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
+[00:42:14] [Client thread/INFO]: [xaero.common.events.ForgeEventHandler:onOutdatedOverridable:150]: Minimap is outdated!
+[00:42:25] [Netty Client IO #0/INFO]: Attempting connection with missing mods [craftguide, inventorytweaks, torohealthmod, xaerominimap] at SERVER
+[00:42:27] [Client thread/INFO]: Connecting to 73.93.125.98, 25565
+[00:42:28] [Netty Client IO #1/INFO]: Server protocol version 2
+[00:42:28] [Netty Client IO #1/INFO]: Attempting connection with missing mods [craftguide, inventorytweaks, torohealthmod, xaerominimap] at SERVER
+[00:42:28] [Netty Client IO #1/INFO]: Injecting existing block and item data into this client instance
+[00:42:28] [Netty Client IO #1/INFO]: Applying holder lookups
+[00:42:28] [Netty Client IO #1/INFO]: Holder lookups applied
+[00:42:28] [Netty Client IO #1/INFO]: [Netty Client IO #1] Client side modded connection established
+[00:42:30] [Client thread/INFO]: [CHAT] InvTweaks: 配置文件已载入
+[00:42:35] [Client thread/INFO]: InvTweaks: successfully transformed setFocused/func_146195_b
+[00:42:37] [Client thread/INFO]: [CHAT] 将时间设为0
+[00:42:54] [Client thread/INFO]: [CHAT] 你的游戏模式已被更新为创造模式
+[00:43:49] [Client thread/INFO]: Applying holder lookups
+[00:43:49] [Client thread/INFO]: Holder lookups applied
+[00:43:50] [Netty Client IO #2/INFO]: Attempting connection with missing mods [craftguide, inventorytweaks, torohealthmod, xaerominimap] at SERVER
+[00:43:52] [Client thread/INFO]: Stopping!
+[00:43:52] [Client thread/INFO]: SoundSystem shutting down...
+[00:43:52] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
